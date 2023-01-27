@@ -1,0 +1,22 @@
+Requirement
+- GORM: "gorm.io/gorm"
+- MySQL: "gorm.io/driver/mysql"
+- PostgreSQL: "gorm.io/driver/mysql"
+
+- Create Database
+  -- dewe_be-dewe_tour
+
+- Models
+  -- User
+  -- Country
+  -- Trip
+  -- Transaction
+
+- Connection
+  -- connect to mysql database: "dewe_be-dewe_tour"
+
+- Migration
+  -- model-dependent database migrations
+
+- Data Transfer Object (DTO)
+ -- userdto

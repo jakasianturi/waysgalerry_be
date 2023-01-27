@@ -1,0 +1,160 @@
+[
+	{
+		"status": "success",
+		"data": {
+			"user": {
+				"email": "andidoang@gmail.com",
+				"fullName": "andi",
+				"token": "0sdnOJIoinsdo9878IJNBIniiuinINiuYIUY"
+			}
+		}
+	},
+	{
+		"status": "success",
+		"data": {
+			"posts": [
+				{
+					"id": 1,
+					"title": "Robo-x Landing Page",
+					"description": "👋 Say Hello geralt@gmail.com Hey, guys! Super excited to share my new web app interface and elements that I recently worked on. Hope you enjoyed it. Thanks for your likes and comments!",
+					"photos": [
+						{
+							"id": 1,
+							"image": "1323Robo.png"
+						},
+						{
+							"id": 2,
+							"image": "1323RoboDetail.png"
+						},
+						{
+							"id": 3,
+							"image": "1323RoboHead.png"
+						}
+					],
+					"createdBy": {
+						"id": 10,
+						"fullName": "Andre",
+						"email": "andre@gmail.com"
+					}
+				}
+			]
+		}
+	},
+	{
+		"status": "success",
+		"data": {
+			"post": {
+				"id": 1,
+				"title": "Robo-x Landing Page",
+				"description": "👋 Say Hello geralt@gmail.com Hey, guys! Super excited to share my new web app interface and  elements that I recently worked on. Hope you enjoyed it. Thanks for your likes and comments!",
+				"photos": [
+					{
+						"id": 1,
+						"image": "1323Robo.png"
+					},
+					{
+						"id": 2,
+						"image": "1323RoboDetail.png"
+					},
+					{
+						"id": 3,
+						"image": "1323RoboHead.png"
+					}
+				],
+				"createdBy": {
+					"id": 10,
+					"fullName": "Andre",
+					"email": "andre@gmail.com"
+				}
+			}
+		}
+	},
+	{
+		"status": "success",
+		"data": {
+			"id": 1,
+			"fullName": "andre",
+			"email": "andre@gmail.com",
+			"avatar": "image.png",
+			"posts": [
+				{
+					"id": 1,
+					"title": "Robo-x Landing Page",
+					"description": "👋 Say Hello geralt@gmail.com Hey, guys! Super excited to share my new web app interface and elements that I recently worked on. Hope you enjoyed it. Thanks for your likes and comments!",
+					"photos": [
+						{
+							"id": 1,
+							"image": "1323Robo.png"
+						},
+						{
+							"id": 2,
+							"image": "1323RoboDetail.png"
+						},
+						{
+							"id": 3,
+							"image": "1323RoboHead.png"
+						}
+					]
+				}
+			],
+			"arts": [
+				{
+					"id": 1,
+					"image": "image1.png"
+				},
+				{
+					"id": 2,
+					" image ": "image2.png"
+				},
+				{
+					"id": 3,
+					" image ": "image3.png"
+				}
+			]
+		}
+	},
+	{
+		"status": "success",
+		"data": {
+			"hired": {
+				"title": "Make new art",
+				"description": "Hello i want yout to make beutiful art",
+				"startDate": "11/02/2020",
+				"endDate": "11/20/2020",
+				"price": 500000,
+				"orderBy": {
+					"id": 1,
+					"fullName": "andre",
+					"email": "andre@gmail.com"
+				},
+				"orderTo": {
+					"id": 11,
+					"fullName": "kiki",
+					"email": " kiki @gmail.com"
+				}
+			}
+		}
+	},
+	{
+		"status": "success",
+		"data": {
+			"hired": {
+				"title": "Make new art",
+				"description": "Hello i want yout to make beutiful art",
+				"startDate": "11/02/2020",
+				"endDate": "11/20/2020",
+				"price": 500000,
+				"orderBy": {
+					"id": 1,
+					"fullName": "andre",
+					"email": "andre@gmail.com"
+				},
+				"orderTo": {
+					"id": 11,
+					"fullName": "kiki",
+					"email": " kiki @gmail.com"
+				}
+			}
+		}
+	}
+]
