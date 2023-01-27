@@ -13,11 +13,11 @@ var DB *gorm.DB
 func DatabaseInit() {
 
 	// database config from .env
-	var DB_HOST = os.Getenv("DB_HOST")
-	var DB_USER = os.Getenv("DB_USER")
-	var DB_PASSWORD = os.Getenv("DB_PASSWORD")
-	var DB_DATABASENAME = os.Getenv("DB_DATABASENAME")
-	var DB_PORT = os.Getenv("DB_PORT")
+	var DB_HOST = os.Getenv("MYSQLHOST")
+	var DB_USER = os.Getenv("MYSQLUSER")
+	var DB_PASSWORD = os.Getenv("MYSQLPASSWORD")
+	var DB_DATABASENAME = os.Getenv("MYSQLDATABASE")
+	var DB_PORT = os.Getenv("MYSQLPORT")
 
 	// connected to database
 	var err error
