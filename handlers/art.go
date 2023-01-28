@@ -90,6 +90,11 @@ func (h *handlerArt) CreateArt(w http.ResponseWriter, r *http.Request) {
 				return
 			}
 		}
+	} else {
+		w.WriteHeader(http.StatusInternalServerError)
+		response := resultdto.ErrorResult{Status: "error", Message: "Error retriving the file."}
+		json.NewEncoder(w).Encode(response)
+		return
 	}
 
 	// get data
